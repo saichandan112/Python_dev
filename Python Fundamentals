@@ -60,3 +60,6 @@ print(a < b)        #False
 print(a > b)        #True
 print(a <= b)       #False
 print(a >= b)       #True
+print("\n")
+#Logical loperators in Python:
+print(a>2 and a!=5)  #True
