@@ -1,5 +1,3 @@
-#Practice code -
-
 '''
 
 name = "Sai"
@@ -17,7 +15,6 @@ Data types in Python:
 
 '''
 
-
 name = "Chandan"         # "String"
 age = 25                # "Integer"
 height = 6.1            # "Float"
@@ -28,6 +25,8 @@ print(type(name))        # <class 'str'>
 print(type(age))     # <class 'int'>
 print(type(height))  # <class 'float'>
 
-name = input("Enter your name: ")   #Input function to take user input
+name = input("Enter your name: ")   #Input function to take user input (name)
+age = input("Age:")                 #Input function to take user input (age)
 
 print("Name:", name)                #output the name entered by user
+print("Age:", age)                  #output the age entered by user
