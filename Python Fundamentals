@@ -64,11 +64,18 @@ print("\n")
 #Logical loperators in Python:
 print(a>2 and a!=5)  #True
 
-'''
+
 
 #if conditional statements in Python:
 Age = input("Enter your age: ")
-age = 18
 
-if(age >= 18):
+if(Age >= 18):
     print("You are eligible to vote.")
+'''
+
+Age = input("Enter your age:")
+
+if int(Age) >= 18:
+    print("Adult")
+else:
+    print("Not Adult")
