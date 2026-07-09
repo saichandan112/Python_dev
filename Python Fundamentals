@@ -40,7 +40,7 @@ Arithmetic operations in Python:
 4. Division: /
 5. Modulus: %
 
-'''
+
 # Let us suppose we have two numbers, a = 10 and b = 3. We can perform arithmetic operations on these numbers as follows:
 
 a=10
@@ -63,3 +63,12 @@ print(a >= b)       #True
 print("\n")
 #Logical loperators in Python:
 print(a>2 and a!=5)  #True
+
+'''
+
+#if conditional statements in Python:
+Age = input("Enter your age: ")
+age = 18
+
+if(age >= 18):
+    print("You are eligible to vote.")
