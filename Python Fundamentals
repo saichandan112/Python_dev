@@ -13,7 +13,7 @@ Data types in Python:
 2. Sequence types: list, tuple, range
 3. Text type: str
 
-'''
+
 
 name = "Chandan"         # "String"
 age = 25                # "Integer"
@@ -25,7 +25,7 @@ print(type(name))        # <class 'str'>
 print(type(age))     # <class 'int'>
 print(type(height))  # <class 'float'>
 
-name = input("Enter your name: ")   
+name = input("Enter your name: ")   #Input function to take user input (name)
 age = input("Age:")                 #Input function to take user input (age)
 
 print("Name:", name)                #output the name entered by user
@@ -35,3 +35,26 @@ print("Age:", age)                  #output the age entered by user
 name = input("Enter your name: ")   #Input function to take user input (name)
 
 print("Welcome", name)
+
+
+
+Arithmetic operations in Python:
+1. Addition: +
+2. Subtraction: -
+3. Multiplication: *
+4. Division: /
+5. Modulus: %
+
+'''
+# Let us suppose we have two numbers, a = 10 and b = 3. We can perform arithmetic operations on these numbers as follows:
+
+a=10
+b=3
+
+print("Addition:", a + b)          # Output: 13
+print("Subtraction:", a - b)       # Output: 7
+print("Multiplication:", a * b)    # Output: 30
+print("Division:", a / b)          # Output: 3.3333333333333335
+print("Modulus:", a % b)            # Output: 1
+
+
