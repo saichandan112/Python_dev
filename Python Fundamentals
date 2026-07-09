@@ -1,9 +1,33 @@
 #Practice code -
 
+'''
+
 name = "Sai"
 age = 25
 gender = "Male"
-salary = 1000000
+salary = 1000000.00
 
 print("Name:",name)
 print("Gender:",gender)
+
+Data types in Python:
+1. Numeric types: int, float, complex
+2. Sequence types: list, tuple, range
+3. Text type: str
+
+'''
+
+
+name = "Chandan"         # "String"
+age = 25                # "Integer"
+height = 6.1            # "Float"
+is_developer = True      # "Boolean"
+
+#Check type of variable
+print(type(name))        # <class 'str'>
+print(type(age))     # <class 'int'>
+print(type(height))  # <class 'float'>
+
+name = input("Enter your name: ")   #Input function to take user input
+
+print("Name:", name)                #output the name entered by user
