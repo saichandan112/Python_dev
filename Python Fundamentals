@@ -1,0 +1,9 @@
+#Practice code -
+
+name = "Sai"
+age = 25
+gender = "Male"
+salary = 1000000
+
+print("Name:",name)
+print("Gender:",gender)
