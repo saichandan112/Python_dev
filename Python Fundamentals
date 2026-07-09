@@ -25,8 +25,13 @@ print(type(name))        # <class 'str'>
 print(type(age))     # <class 'int'>
 print(type(height))  # <class 'float'>
 
-name = input("Enter your name: ")   #Input function to take user input (name)
+name = input("Enter your name: ")   
 age = input("Age:")                 #Input function to take user input (age)
 
 print("Name:", name)                #output the name entered by user
 print("Age:", age)                  #output the age entered by user
+
+
+name = input("Enter your name: ")   #Input function to take user input (name)
+
+print("Welcome", name)
