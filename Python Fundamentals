@@ -71,7 +71,7 @@ Age = input("Enter your age: ")
 
 if(Age >= 18):
     print("You are eligible to vote.")
-'''
+
 
 Age = input("Enter your age:")
 
@@ -79,3 +79,17 @@ if int(Age) >= 18:
     print("Adult")
 else:
     print("Not Adult")
+
+    '''
+
+#if-elif-else conditional statements in Python:
+
+Marks = int(input("Enter marks:"))
+if(Marks >= 90):
+    print("Grade A+")
+elif(Marks < 90 and Marks >= 80):
+    print("Grade A")
+elif(Marks < 80 and Marks >= 70):
+    print("Grade B")
+else:
+    print("Grade C")
