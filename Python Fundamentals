@@ -100,7 +100,7 @@ else:                                       #else condition to check if none of 
 for i in range(1, 11):                  #for loop to iterate through numbers from 1 to 10
     print(i)                    
     
-'''
+
 
 #while loop in Python:
 
@@ -108,3 +108,35 @@ Count = 1                       #Initialize Count variable to 1
 while Count <= 10:              #while loop to iterate through numbers from 1 to 10
     print(Count)                #Printing the value of Count in each iteration of the loop
     Count += 3                  #Incrementing the value of Count by 3 in each iteration of the loop
+    
+
+
+#Functions in Python(with parameters):
+
+def greet(name):                     #Defining a function named greet that takes a parameter name
+    print("Hello, " + name + "!")    #Printing a greeting message with the name passed as an argument
+    
+    
+greet("SAI")                               #Calling the greet function with the argument "SAI" 
+
+
+
+
+def greet():                                #defining a function named greet that takes no parameters
+    print("Hello python!")
+    
+greet()
+
+
+
+#return statement in Python:
+
+
+def add(a,b):
+    return a + b
+
+result = add(5, 3)
+
+print("The sum is:", result)
+
+'''
