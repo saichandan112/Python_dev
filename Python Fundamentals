@@ -84,12 +84,14 @@ else:
 
 #if-elif-else conditional statements in Python:
 
-Marks = int(input("Enter marks:"))
-if(Marks >= 90):
-    print("Grade A+")
-elif(Marks < 90 and Marks >= 80):
-    print("Grade A")
-elif(Marks < 80 and Marks >= 70):
-    print("Grade B")
-else:
-    print("Grade C")
+Marks = int(input("Enter marks:"))          #input function to take user input (marks)
+if(Marks >= 90):                            #if condition to check if marks are greater than or equal to 90
+    print("Grade A+")                       #print statement to output grade A+ if condition is true
+elif(Marks < 90 and Marks >= 80):           #elif condition to check if marks are less than 90 and greater than or equal to 80
+    print("Grade A")                        #print statement to output grade A if condition is true
+elif(Marks < 80 and Marks >= 70):           #elif condition to check if marks are less than 80 and greater than or equal to 70
+    print("Grade B")                        #print statement to output grade B if condition is true
+else:                                       #else condition to check if none of the above conditions are true
+    print("Grade C")                        #print statement to output grade C if none of the above conditions are true
+    
+
