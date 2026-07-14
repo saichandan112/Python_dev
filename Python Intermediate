@@ -1,0 +1,5 @@
+#Lists in python
+
+fruits = ["Apple", "Banana", "Orange"]
+
+print(fruits[0])
