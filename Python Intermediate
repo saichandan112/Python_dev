@@ -1,5 +1,15 @@
 #Lists in python
-
+'''
 fruits = ["Apple", "Banana", "Orange"]
 
 print(fruits[0])
+
+
+
+name = "Python"
+print(name.upper())                         #PYTHON
+print(name.lower())                         #python
+print(name.replace("n", "J"))               #PythoJ
+print(name.split("n"))                      #['Pytho', '']
+
+'''
