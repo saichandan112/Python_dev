@@ -1,3 +1,7 @@
+
+# Learn → Code → Break Things → Debug → Build Small Projects → Repeat
+
+
 # Python Learning & Development Tracker
 
 This repository is dedicated to tracking my Python learning journey and development progress. It includes:
