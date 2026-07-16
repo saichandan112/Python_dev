@@ -13,3 +13,12 @@ print(name.replace("n", "J"))               #PythoJ
 print(name.split("n"))                      #['Pytho', '']
 
 '''
+
+#checking palindrome
+
+text = input("Enter :")
+
+if text == text[::-1]:
+    print("Palindrome")
+else:
+    print("Not Palindrome")
