@@ -12,7 +12,7 @@ print(name.lower())                         #python
 print(name.replace("n", "J"))               #PythoJ
 print(name.split("n"))                      #['Pytho', '']
 
-'''
+
 
 #checking palindrome
 
@@ -22,3 +22,13 @@ if text == text[::-1]:
     print("Palindrome")
 else:
     print("Not Palindrome")
+    
+
+# Reversing a string 
+
+text = input("Enter :")                         #Take input from user
+reversed_text = text[::-1]                      #reverse the string using slicing
+print("Reversed string:", reversed_text)        #Prints the reversed string
+    
+'''    
+
