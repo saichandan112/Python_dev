@@ -29,6 +29,13 @@ else:
 text = input("Enter :")                         #Take input from user
 reversed_text = text[::-1]                      #reverse the string using slicing
 print("Reversed string:", reversed_text)        #Prints the reversed string
-    
+
+
+#Reversing List 
+
+List = input("Enter:").split()     
+reverse_list = List[::-1]
+print(reverse_list)
+#List of numbers
 '''    
 
