@@ -55,4 +55,16 @@ else:
 
 print("Reversed list:", reversed_list)
 
+#Print only vowels in a string.
+
+text = input("Enter :")
+vowels = "aeiouAEIOU"
+
+for char in text:
+    if char in vowels:
+        print(char, "is a vowel")
+        
+        
+        
+
 
